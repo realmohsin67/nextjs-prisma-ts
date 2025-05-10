@@ -1,5 +1,11 @@
-import HelloWorld from "@/components/hello-world";
+import Users from "@/components/users";
+import Posts from "@/components/posts";
 
 export default function Page() {
-  return <HelloWorld />;
+  return (
+    <div>
+      <Users />
+      <Posts />
+    </div>
+  );
 }
